@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36221.1 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gn-transport", "gn-transport\gn-transport.csproj", "{AE5AD635-1CF7-4AAC-9EBC-20BD7B40B62E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE5AD635-1CF7-4AAC-9EBC-20BD7B40B62E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE5AD635-1CF7-4AAC-9EBC-20BD7B40B62E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE5AD635-1CF7-4AAC-9EBC-20BD7B40B62E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE5AD635-1CF7-4AAC-9EBC-20BD7B40B62E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A09EC47A-DBA9-4A6C-9374-366A648F4197}
+	EndGlobalSection
+EndGlobal

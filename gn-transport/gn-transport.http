@@ -1,0 +1,6 @@
+@gn_transport_HostAddress = http://localhost:5098
+
+GET {{gn_transport_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
