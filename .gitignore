@@ -5,6 +5,8 @@
 /gn-transport.Domain/obj/
 /gn-transport.Application/bin/
 /gn-transport.Application/obj/
+/gn-transport.Infrastructure/bin/
+/gn-transport.Infrastructure/obj/
 /.vs/gn-transport/FileContentIndex/
 /.vs/
 /.vs/

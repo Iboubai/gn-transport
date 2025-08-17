@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\_repositories\\vs2022\\gn-transport\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D29F3EB4-9032-43FF-8F5E-09EB29C73C67}|gn-transport.Application\\gn-transport.Application.csproj|c:\\_repositories\\vs2022\\gn-transport\\gn-transport.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D29F3EB4-9032-43FF-8F5E-09EB29C73C67}|gn-transport.Application\\gn-transport.Application.csproj|solutionrelative:gn-transport.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{870D1740-1D35-4A33-9805-5CFA09A687A3}|gn-transport.Infrastructure\\gn-transport.Infrastructure.csproj|c:\\_repositories\\vs2022\\gn-transport\\gn-transport.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{870D1740-1D35-4A33-9805-5CFA09A687A3}|gn-transport.Infrastructure\\gn-transport.Infrastructure.csproj|solutionrelative:gn-transport.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,13 +24,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\_repositories\\vs2022\\gn-transport\\gn-transport.Application\\Class1.cs",
-              "RelativeDocumentMoniker": "gn-transport.Application\\Class1.cs",
-              "ToolTip": "C:\\_repositories\\vs2022\\gn-transport\\gn-transport.Application\\Class1.cs",
-              "RelativeToolTip": "gn-transport.Application\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\_repositories\\vs2022\\gn-transport\\gn-transport.Infrastructure\\Class1.cs",
+              "RelativeDocumentMoniker": "gn-transport.Infrastructure\\Class1.cs",
+              "ToolTip": "C:\\_repositories\\vs2022\\gn-transport\\gn-transport.Infrastructure\\Class1.cs",
+              "RelativeToolTip": "gn-transport.Infrastructure\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T04:00:19.951Z",
+              "WhenOpened": "2025-08-17T04:03:18.058Z",
               "EditorCaption": ""
             }
           ]
