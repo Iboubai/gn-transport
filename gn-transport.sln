@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gn-transport", "gn-transpor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gn-transport.Domain", "gn-transport.Domain\gn-transport.Domain.csproj", "{DC755390-8D43-4FD9-B5E4-B10D7F32B99A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gn-transport.Application", "gn-transport.Application\gn-transport.Application.csproj", "{D29F3EB4-9032-43FF-8F5E-09EB29C73C67}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{DC755390-8D43-4FD9-B5E4-B10D7F32B99A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC755390-8D43-4FD9-B5E4-B10D7F32B99A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC755390-8D43-4FD9-B5E4-B10D7F32B99A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D29F3EB4-9032-43FF-8F5E-09EB29C73C67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D29F3EB4-9032-43FF-8F5E-09EB29C73C67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D29F3EB4-9032-43FF-8F5E-09EB29C73C67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D29F3EB4-9032-43FF-8F5E-09EB29C73C67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

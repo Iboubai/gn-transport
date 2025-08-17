@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\_repositories\\vs2022\\gn-transport\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DC755390-8D43-4FD9-B5E4-B10D7F32B99A}|gn-transport.Domain\\gn-transport.Domain.csproj|c:\\_repositories\\vs2022\\gn-transport\\gn-transport.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC755390-8D43-4FD9-B5E4-B10D7F32B99A}|gn-transport.Domain\\gn-transport.Domain.csproj|solutionrelative:gn-transport.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D29F3EB4-9032-43FF-8F5E-09EB29C73C67}|gn-transport.Application\\gn-transport.Application.csproj|c:\\_repositories\\vs2022\\gn-transport\\gn-transport.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D29F3EB4-9032-43FF-8F5E-09EB29C73C67}|gn-transport.Application\\gn-transport.Application.csproj|solutionrelative:gn-transport.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,13 +24,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\_repositories\\vs2022\\gn-transport\\gn-transport.Domain\\Class1.cs",
-              "RelativeDocumentMoniker": "gn-transport.Domain\\Class1.cs",
-              "ToolTip": "C:\\_repositories\\vs2022\\gn-transport\\gn-transport.Domain\\Class1.cs",
-              "RelativeToolTip": "gn-transport.Domain\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\_repositories\\vs2022\\gn-transport\\gn-transport.Application\\Class1.cs",
+              "RelativeDocumentMoniker": "gn-transport.Application\\Class1.cs",
+              "ToolTip": "C:\\_repositories\\vs2022\\gn-transport\\gn-transport.Application\\Class1.cs",
+              "RelativeToolTip": "gn-transport.Application\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T03:54:57.914Z",
+              "WhenOpened": "2025-08-17T04:00:19.951Z",
               "EditorCaption": ""
             }
           ]
