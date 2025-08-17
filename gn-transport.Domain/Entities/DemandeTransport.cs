@@ -1,5 +1,4 @@
-﻿using System;
-using gn_transport.Domain.ValueObjects;
+﻿using gn_transport.Domain.ValueObjects;
 namespace gn_transport.Domain.Entities
 {
     public class DemandeTransport
