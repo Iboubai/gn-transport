@@ -1,12 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\_repositories\\vs2022\\gn-transport\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{870D1740-1D35-4A33-9805-5CFA09A687A3}|gn-transport.Infrastructure\\gn-transport.Infrastructure.csproj|c:\\_repositories\\vs2022\\gn-transport\\gn-transport.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{870D1740-1D35-4A33-9805-5CFA09A687A3}|gn-transport.Infrastructure\\gn-transport.Infrastructure.csproj|solutionrelative:gn-transport.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -14,24 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\_repositories\\vs2022\\gn-transport\\gn-transport.Infrastructure\\Class1.cs",
-              "RelativeDocumentMoniker": "gn-transport.Infrastructure\\Class1.cs",
-              "ToolTip": "C:\\_repositories\\vs2022\\gn-transport\\gn-transport.Infrastructure\\Class1.cs",
-              "RelativeToolTip": "gn-transport.Infrastructure\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T04:03:18.058Z",
-              "EditorCaption": ""
             }
           ]
         }

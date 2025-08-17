@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gn-transport.Application", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gn-transport.Infrastructure", "gn-transport.Infrastructure\gn-transport.Infrastructure.csproj", "{870D1740-1D35-4A33-9805-5CFA09A687A3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gn-transport.Tests.Unit", "gn-transport.Tests.Unit\gn-transport.Tests.Unit.csproj", "{0A492F69-A136-4DA4-BC1E-CEC2631D9022}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gn-transport.Tests.Integration", "gn-transport.Tests.Integration\gn-transport.Tests.Integration.csproj", "{2267A637-A7ED-471C-8E17-4627D95C608C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{870D1740-1D35-4A33-9805-5CFA09A687A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{870D1740-1D35-4A33-9805-5CFA09A687A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{870D1740-1D35-4A33-9805-5CFA09A687A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A492F69-A136-4DA4-BC1E-CEC2631D9022}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A492F69-A136-4DA4-BC1E-CEC2631D9022}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A492F69-A136-4DA4-BC1E-CEC2631D9022}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A492F69-A136-4DA4-BC1E-CEC2631D9022}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2267A637-A7ED-471C-8E17-4627D95C608C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2267A637-A7ED-471C-8E17-4627D95C608C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2267A637-A7ED-471C-8E17-4627D95C608C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2267A637-A7ED-471C-8E17-4627D95C608C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

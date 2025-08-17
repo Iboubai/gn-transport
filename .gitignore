@@ -7,6 +7,10 @@
 /gn-transport.Application/obj/
 /gn-transport.Infrastructure/bin/
 /gn-transport.Infrastructure/obj/
+/gn-transport.Tests.Unit/bin/
+/gn-transport.Tests.Unit/obj/
+/gn-transport.Tests.Integration/bin/
+/gn-transport.Tests.Integration/obj/
 /.vs/gn-transport/FileContentIndex/
 /.vs/
 /.vs/
