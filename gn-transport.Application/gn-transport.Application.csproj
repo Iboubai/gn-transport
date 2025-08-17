@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\gn-transport.Domain\gn-transport.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

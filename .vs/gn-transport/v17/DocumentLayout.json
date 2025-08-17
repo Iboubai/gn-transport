@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\_repositories\\vs2022\\gn-transport\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D29F3EB4-9032-43FF-8F5E-09EB29C73C67}|gn-transport.Application\\gn-transport.Application.csproj|c:\\_repositories\\vs2022\\gn-transport\\gn-transport.application\\queries\\getdemandetransportbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D29F3EB4-9032-43FF-8F5E-09EB29C73C67}|gn-transport.Application\\gn-transport.Application.csproj|solutionrelative:gn-transport.application\\queries\\getdemandetransportbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D29F3EB4-9032-43FF-8F5E-09EB29C73C67}|gn-transport.Application\\gn-transport.Application.csproj|c:\\_repositories\\vs2022\\gn-transport\\gn-transport.application\\commands\\creerdemandetransportcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D29F3EB4-9032-43FF-8F5E-09EB29C73C67}|gn-transport.Application\\gn-transport.Application.csproj|solutionrelative:gn-transport.application\\commands\\creerdemandetransportcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC755390-8D43-4FD9-B5E4-B10D7F32B99A}|gn-transport.Domain\\gn-transport.Domain.csproj|c:\\_repositories\\vs2022\\gn-transport\\gn-transport.domain\\ports\\input\\igestiondemandetransportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC755390-8D43-4FD9-B5E4-B10D7F32B99A}|gn-transport.Domain\\gn-transport.Domain.csproj|solutionrelative:gn-transport.domain\\ports\\input\\igestiondemandetransportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +22,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetDemandeTransportByIdQuery.cs",
+              "DocumentMoniker": "C:\\_repositories\\vs2022\\gn-transport\\gn-transport.Application\\Queries\\GetDemandeTransportByIdQuery.cs",
+              "RelativeDocumentMoniker": "gn-transport.Application\\Queries\\GetDemandeTransportByIdQuery.cs",
+              "ToolTip": "C:\\_repositories\\vs2022\\gn-transport\\gn-transport.Application\\Queries\\GetDemandeTransportByIdQuery.cs",
+              "RelativeToolTip": "gn-transport.Application\\Queries\\GetDemandeTransportByIdQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T04:17:45.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreerDemandeTransportCommand.cs",
+              "DocumentMoniker": "C:\\_repositories\\vs2022\\gn-transport\\gn-transport.Application\\Commands\\CreerDemandeTransportCommand.cs",
+              "RelativeDocumentMoniker": "gn-transport.Application\\Commands\\CreerDemandeTransportCommand.cs",
+              "ToolTip": "C:\\_repositories\\vs2022\\gn-transport\\gn-transport.Application\\Commands\\CreerDemandeTransportCommand.cs",
+              "RelativeToolTip": "gn-transport.Application\\Commands\\CreerDemandeTransportCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T04:16:40.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IGestionDemandeTransportService.cs",
+              "DocumentMoniker": "C:\\_repositories\\vs2022\\gn-transport\\gn-transport.Domain\\Ports\\Input\\IGestionDemandeTransportService.cs",
+              "RelativeDocumentMoniker": "gn-transport.Domain\\Ports\\Input\\IGestionDemandeTransportService.cs",
+              "ToolTip": "C:\\_repositories\\vs2022\\gn-transport\\gn-transport.Domain\\Ports\\Input\\IGestionDemandeTransportService.cs",
+              "RelativeToolTip": "gn-transport.Domain\\Ports\\Input\\IGestionDemandeTransportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T04:15:51.69Z",
+              "EditorCaption": ""
             }
           ]
         }
