@@ -7,4 +7,17 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\gn-transport.Domain\gn-transport.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="GnDapper">
+      <HintPath>..\..\gn-core-libraries\GnDapper\bin\Debug\net8.0\GnDapper.dll</HintPath>
+    </Reference>
+    <Reference Include="GnSeriLog">
+      <HintPath>..\..\gn-core-libraries\GnSeriLog\bin\Debug\net8.0\GnSeriLog.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
