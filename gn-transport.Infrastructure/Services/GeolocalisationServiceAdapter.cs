@@ -13,15 +13,13 @@ namespace gn_transport.Infrastructure.Services
             IConfiguration configuration)
         {
             _httpClient = httpClient;
-            _geolocApiBaseUrl =
-                configuration["Microservices:GeolocApi:BaseUrl"] ?? throw new
-                    ArgumentNullException("GeolocApi:BaseUrl configuration is missing.");
+            _geolocApiBaseUrl = configuration["Microservices:GeolocApi:BaseUrl"] ?? throw new ArgumentNullException("GeolocApi:BaseUrl configuration is missing.");
         }
         public async Task<double> CalculerDistanceAsync(Localisation
             pointDepart, Localisation pointArrivee)
         {
             // Appel à l'API gn-geoloc pour calculer la distance
-            var requestUrl = $"{_geolocApiBaseUrl}/api/geoloc/distance?lat1={ pointDepart.Latitude}&lon1 ={ pointDepart.Longitude}&lat2 ={ pointArrivee.Latitude}&lon2 ={ pointArrivee.Longitude}";
+            var requestUrl = $"{_geolocApiBaseUrl}/api/geoloc/distance?lat1={pointDepart.Latitude}&lon1 ={pointDepart.Longitude}&lat2 ={pointArrivee.Latitude}&lon2 ={pointArrivee.Longitude}";
             var response = await _httpClient.GetAsync(requestUrl);
             response.EnsureSuccessStatusCode();
             var content = await response.Content.ReadAsStringAsync();

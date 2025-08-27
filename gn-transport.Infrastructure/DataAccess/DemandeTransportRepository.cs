@@ -13,36 +13,36 @@ namespace gn_transport.Infrastructure.DataAccess
         }
         public async Task AddAsync(DemandeTransport demande)
         {
-    //        var sql = "INSERT INTO DemandesTransport (Id, TypeProduit,
-    //        Quantite, UniteQuantite, PointDepartLatitude, PointDepartLongitude,
-    //PointDepartAdresse, PointDepartVille, PointDepartPays, PointArriveeLatitude,
-    //PointArriveeLongitude, PointArriveeAdresse, PointArriveeVille,
-    //PointArriveePays, DateHeureSouhaitee, Statut, DemandeurId) VALUES(@Id,
-    //@TypeProduit, @Quantite, @UniteQuantite, @PointDepartLatitude,
-    //@PointDepartLongitude, @PointDepartAdresse, @PointDepartVille,
-    //@PointDepartPays, @PointArriveeLatitude, @PointArriveeLongitude,
-    //@PointArriveeAdresse, @PointArriveeVille, @PointArriveePays,
-    //@DateHeureSouhaitee, @Statut, @DemandeurId)";
-    //        await _connection.ExecuteAsync(sql, new
-    //        {
-    //            demande.Id,
-    //            demande.TypeProduit,
-    //            demande.Quantite,
-    //            demande.UniteQuantite,
-    //            PointDepartLatitude = demande.PointDepart.Latitude,
-    //            PointDepartLongitude = demande.PointDepart.Longitude,
-    //            PointDepartAdresse = demande.PointDepart.Adresse,
-    //            PointDepartVille = demande.PointDepart.Ville,
-    //            PointDepartPays = demande.PointDepart.Pays,
-    //            PointArriveeLatitude = demande.PointArrivee.Latitude,
-    //            PointArriveeLongitude = demande.PointArrivee.Longitude,
-    //            PointArriveeAdresse = demande.PointArrivee.Adresse,
-    //            PointArriveeVille = demande.PointArrivee.Ville,
-    //            PointArriveePays = demande.PointArrivee.Pays,
-    //            demande.DateHeureSouhaitee,
-    //            demande.Statut,
-    //            demande.DemandeurId
-    //        });
+            //        var sql = "INSERT INTO DemandesTransport (Id, TypeProduit,
+            //        Quantite, UniteQuantite, PointDepartLatitude, PointDepartLongitude,
+            //PointDepartAdresse, PointDepartVille, PointDepartPays, PointArriveeLatitude,
+            //PointArriveeLongitude, PointArriveeAdresse, PointArriveeVille,
+            //PointArriveePays, DateHeureSouhaitee, Statut, DemandeurId) VALUES(@Id,
+            //@TypeProduit, @Quantite, @UniteQuantite, @PointDepartLatitude,
+            //@PointDepartLongitude, @PointDepartAdresse, @PointDepartVille,
+            //@PointDepartPays, @PointArriveeLatitude, @PointArriveeLongitude,
+            //@PointArriveeAdresse, @PointArriveeVille, @PointArriveePays,
+            //@DateHeureSouhaitee, @Statut, @DemandeurId)";
+            //        await _connection.ExecuteAsync(sql, new
+            //        {
+            //            demande.Id,
+            //            demande.TypeProduit,
+            //            demande.Quantite,
+            //            demande.UniteQuantite,
+            //            PointDepartLatitude = demande.PointDepart.Latitude,
+            //            PointDepartLongitude = demande.PointDepart.Longitude,
+            //            PointDepartAdresse = demande.PointDepart.Adresse,
+            //            PointDepartVille = demande.PointDepart.Ville,
+            //            PointDepartPays = demande.PointDepart.Pays,
+            //            PointArriveeLatitude = demande.PointArrivee.Latitude,
+            //            PointArriveeLongitude = demande.PointArrivee.Longitude,
+            //            PointArriveeAdresse = demande.PointArrivee.Adresse,
+            //            PointArriveeVille = demande.PointArrivee.Ville,
+            //            PointArriveePays = demande.PointArrivee.Pays,
+            //            demande.DateHeureSouhaitee,
+            //            demande.Statut,
+            //            demande.DemandeurId
+            //        });
         }
         public async Task DeleteAsync(Guid id)
         {
@@ -114,35 +114,35 @@ namespace gn_transport.Infrastructure.DataAccess
         }
         public async Task UpdateAsync(DemandeTransport demande)
         {
-//            var sql = "UPDATE DemandesTransport SET TypeProduit = @TypeProduit, Quantite = @Quantite, UniteQuantite = @UniteQuantite, PointDepartLatitude =
-//        @PointDepartLatitude, PointDepartLongitude = @PointDepartLongitude,
-//PointDepartAdresse = @PointDepartAdresse, PointDepartVille = @PointDepartVille,
-//PointDepartPays = @PointDepartPays, PointArriveeLatitude =
-//@PointArriveeLatitude, PointArriveeLongitude = @PointArriveeLongitude,
-//PointArriveeAdresse = @PointArriveeAdresse, PointArriveeVille =
-//@PointArriveeVille, PointArriveePays = @PointArriveePays, DateHeureSouhaitee =
-//@DateHeureSouhaitee, Statut = @Statut, DemandeurId = @DemandeurId WHERE Id =
-//@Id";
-//        await _connection.ExecuteAsync(sql, new
-//        {
-//            demande.TypeProduit,
-//            demande.Quantite,
-//            demande.UniteQuantite,
-//            PointDepartLatitude = demande.PointDepart.Latitude,
-//            PointDepartLongitude = demande.PointDepart.Longitude,
-//            PointDepartAdresse = demande.PointDepart.Adresse,
-//            PointDepartVille = demande.PointDepart.Ville,
-//            PointDepartPays = demande.PointDepart.Pays,
-//            PointArriveeLatitude = demande.PointArrivee.Latitude,
-//            PointArriveeLongitude = demande.PointArrivee.Longitude,
-//            PointArriveeAdresse = demande.PointArrivee.Adresse,
-//            PointArriveeVille = demande.PointArrivee.Ville,
-//            PointArriveePays = demande.PointArrivee.Pays,
-//            demande.DateHeureSouhaitee,
-//            demande.Statut,
-//            demande.DemandeurId,
-//            demande.Id
-//        });
+            //            var sql = "UPDATE DemandesTransport SET TypeProduit = @TypeProduit, Quantite = @Quantite, UniteQuantite = @UniteQuantite, PointDepartLatitude =
+            //        @PointDepartLatitude, PointDepartLongitude = @PointDepartLongitude,
+            //PointDepartAdresse = @PointDepartAdresse, PointDepartVille = @PointDepartVille,
+            //PointDepartPays = @PointDepartPays, PointArriveeLatitude =
+            //@PointArriveeLatitude, PointArriveeLongitude = @PointArriveeLongitude,
+            //PointArriveeAdresse = @PointArriveeAdresse, PointArriveeVille =
+            //@PointArriveeVille, PointArriveePays = @PointArriveePays, DateHeureSouhaitee =
+            //@DateHeureSouhaitee, Statut = @Statut, DemandeurId = @DemandeurId WHERE Id =
+            //@Id";
+            //        await _connection.ExecuteAsync(sql, new
+            //        {
+            //            demande.TypeProduit,
+            //            demande.Quantite,
+            //            demande.UniteQuantite,
+            //            PointDepartLatitude = demande.PointDepart.Latitude,
+            //            PointDepartLongitude = demande.PointDepart.Longitude,
+            //            PointDepartAdresse = demande.PointDepart.Adresse,
+            //            PointDepartVille = demande.PointDepart.Ville,
+            //            PointDepartPays = demande.PointDepart.Pays,
+            //            PointArriveeLatitude = demande.PointArrivee.Latitude,
+            //            PointArriveeLongitude = demande.PointArrivee.Longitude,
+            //            PointArriveeAdresse = demande.PointArrivee.Adresse,
+            //            PointArriveeVille = demande.PointArrivee.Ville,
+            //            PointArriveePays = demande.PointArrivee.Pays,
+            //            demande.DateHeureSouhaitee,
+            //            demande.Statut,
+            //            demande.DemandeurId,
+            //            demande.Id
+            //        });
         }
         // Type handler pour le Value Object Localisation
         private class LocalisationTypeHandler// : SqlMapper.TypeHandler<Localisation>

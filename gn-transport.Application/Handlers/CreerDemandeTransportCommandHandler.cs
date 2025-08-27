@@ -1,15 +1,12 @@
-﻿using gn_transport.Domain.Ports.Input;
-using gn_transport.Application.Commands;
+﻿using gn_transport.Application.Commands;
 using gn_transport.Domain.Entities;
+using gn_transport.Domain.Ports.Input;
 namespace gn_transport.Application.Handlers
 {
     public class CreerDemandeTransportCommandHandler
     {
-        private readonly IGestionDemandeTransportService
-            _gestionDemandeTransportService;
-        public
-            CreerDemandeTransportCommandHandler(IGestionDemandeTransportService
-                gestionDemandeTransportService)
+        private readonly IGestionDemandeTransportService _gestionDemandeTransportService;
+        public CreerDemandeTransportCommandHandler(IGestionDemandeTransportService gestionDemandeTransportService)
         {
             _gestionDemandeTransportService = gestionDemandeTransportService;
         }

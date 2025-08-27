@@ -11,7 +11,7 @@ namespace gn_transport.Domain.Entities
         public Localisation PointArrivee { get; private set; }
         public DateTime DateHeureSouhaitee { get; private set; }
         public string Statut { get; private set; } // En attente, Acceptée, Encours, Livrée, Annulée
-    public Guid DemandeurId { get; private set; }
+        public Guid DemandeurId { get; private set; }
         public DemandeTransport(string typeProduit, double quantite, string
         uniteQuantite, Localisation pointDepart, Localisation pointArrivee, DateTime
         dateHeureSouhaitee, Guid demandeurId)

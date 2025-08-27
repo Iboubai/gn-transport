@@ -1,7 +1,4 @@
 ﻿// Pour SQL Server
-using gn_transport.Domain.Entities;
-using gn_transport.Domain.ValueObjects;
-
 namespace gn_transport.Tests.Integration.DataAccess
 {
     [TestFixture]
@@ -27,32 +24,32 @@ namespace gn_transport.Tests.Integration.DataAccess
         }
         private async Task CreateTableAndClearData()
         {
-//            var createTableSql = @"IF OBJECT_ID('DemandesTransport', 'U') IS
-//NULL
-//CREATE TABLE DemandesTransport (
-//Id UNIQUEIDENTIFIER PRIMARY KEY,
-//TypeProduit NVARCHAR(255) NOT NULL,
-//Quantite FLOAT NOT NULL,
-//UniteQuantite NVARCHAR(50) NOT NULL,
-//PointDepartLatitude FLOAT NOT NULL,
-//PointDepartLongitude FLOAT NOT NULL,
-//PointDepartAdresse NVARCHAR(MAX) NOT
-//NULL,
-//PointDepartVille NVARCHAR(255) NOT NULL,
-//PointDepartPays NVARCHAR(255) NOT NULL,
-//PointArriveeLatitude FLOAT NOT NULL,
-//PointArriveeLongitude FLOAT NOT NULL,
-//PointArriveeAdresse NVARCHAR(MAX) NOT
-//NULL,
-//PointArriveeVille NVARCHAR(255) NOT
-//NULL,
-//PointArriveePays NVARCHAR(255) NOT NULL,
-//DateHeureSouhaitee DATETIME2 NOT NULL,
-//Statut NVARCHAR(50) NOT NULL,
-//DemandeurId UNIQUEIDENTIFIER NOT NULL
-//);
-//DELETE FROM DemandesTransport;";
-//            await _connection.ExecuteAsync(createTableSql);
+            //            var createTableSql = @"IF OBJECT_ID('DemandesTransport', 'U') IS
+            //NULL
+            //CREATE TABLE DemandesTransport (
+            //Id UNIQUEIDENTIFIER PRIMARY KEY,
+            //TypeProduit NVARCHAR(255) NOT NULL,
+            //Quantite FLOAT NOT NULL,
+            //UniteQuantite NVARCHAR(50) NOT NULL,
+            //PointDepartLatitude FLOAT NOT NULL,
+            //PointDepartLongitude FLOAT NOT NULL,
+            //PointDepartAdresse NVARCHAR(MAX) NOT
+            //NULL,
+            //PointDepartVille NVARCHAR(255) NOT NULL,
+            //PointDepartPays NVARCHAR(255) NOT NULL,
+            //PointArriveeLatitude FLOAT NOT NULL,
+            //PointArriveeLongitude FLOAT NOT NULL,
+            //PointArriveeAdresse NVARCHAR(MAX) NOT
+            //NULL,
+            //PointArriveeVille NVARCHAR(255) NOT
+            //NULL,
+            //PointArriveePays NVARCHAR(255) NOT NULL,
+            //DateHeureSouhaitee DATETIME2 NOT NULL,
+            //Statut NVARCHAR(50) NOT NULL,
+            //DemandeurId UNIQUEIDENTIFIER NOT NULL
+            //);
+            //DELETE FROM DemandesTransport;";
+            //            await _connection.ExecuteAsync(createTableSql);
         }
         [Test]
         public async Task AddAsync_DoitAjouterUneDemandeTransport()
